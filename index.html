@@ -1,0 +1,181 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome/webfonts/fa-brands-400.ttf"> -->
+</head>
+<body>
+
+
+      
+   
+  
+<!-- * sidebar -->
+    <div class="position-fixed d-flex sideBar ">
+        <div class="sideBarBlack pt-4 px-4 text-light">
+            <ul class=" list-unstyled px-2">
+                <li id="Search" onclick="searchName();" class="li itemSec pe-4">Search</li>
+                <li onclick="displayCategories()"; id="Categories" class="li itemSec pe-4 py-2 position-relative cursor-pointer">Categories</li>
+                <li onclick="getArea() ";id="Area" class="li itemSec pe-4">Area</li>
+                <li onclick="getIngredients()";id="Ingredient" class="li itemSec pe-4">Ingredient</li>
+                <li onclick="inputs()" id="ContactUs" class="li itemSec pe-4">Contact Us</li>
+              
+
+            </ul>
+
+        </div>
+        <div class=" sideBarWhite d-flex flex-column justify-content-between px-1 py-2">
+            <img class=" img-fluid w-100" src="img/logo.png" alt="logo">
+            
+            <div class="openSideBar d-flex justify-content-center">
+                <i class=" fa fa-align-justify "></i>
+            </div>
+          
+            <div class=" d-flex flex-column justify-content-between">
+                <i class="fas fa-globe mb-3"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+<!-- * end of sidebar -->
+
+<section id="categories">
+    <div class="container">
+     <div class="row categ-data">
+       
+     </div>
+     <div class="row detailed-categ-data">
+       
+     </div>
+     <div class="row mealIngredients">
+       
+       
+     </div>
+    
+    </div>
+</section>
+
+    <!-- ? categories -->
+     
+<section class="">
+    <div class="container py-5">
+        <div id="CatData" class="row">
+
+        </div>
+    </div>
+    <div class="container py-5">
+        <div id="test" class="row">
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="searchSection" class="container">
+
+    </div>
+</section>
+
+<div class="container">
+    <div class="row g-4 " id="AreaRow">
+      
+    </div>
+</div>
+<section id="contact">
+
+</section>
+
+
+
+ <section>
+        <div id="searchSection" class="container">
+
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container py-5">
+            <div id="dispCat" class="row">
+
+            </div>
+        </div>
+        <div class="container py-5">
+            <div id="test" class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+    </section>
+
+
+<div class="loading d-none">
+    <span class="loader"></span>
+</div>
+
+<section>
+    <div id="searchSection" class="container">
+
+    </div>
+</section>
+
+<section class="">
+    <div class="container py-5">
+        <div id="dispCat" class="row">
+
+        </div>
+    </div>
+  
+</section>
+<!--  -->
+
+
+
+
+
+
+
+<!-- ?SEARCH CONTAINER -->
+
+  <!-- <div class="container w-75 mt-5" id="SearchContainer">
+    <div class="row py-4">
+        <div class="col-md-6">
+           
+            <input type="text"  class="form-control bg-transparent text-white" placeholder="Search By Name"
+            id="search">
+            <button class=" btn btn-dark mt-3 "> Search</button>
+        </div>
+        <div class="col-md-6">
+            <input  maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">       
+   
+         </div>
+        
+    </div> -->
+     
+ 
+
+
+            <!-- <input onkeyup="searchByFLetter(this.value)" maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">     -->
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
